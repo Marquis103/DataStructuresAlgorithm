@@ -17,6 +17,8 @@
 		F87DF5DF22D14C670097E4AC /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DF5DE22D14C670097E4AC /* SelectionSort.swift */; };
 		F87DF5E122D14FB10097E4AC /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DF5E022D14FB10097E4AC /* InsertionSort.swift */; };
 		F87DF5E322D150790097E4AC /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DF5E222D150790097E4AC /* MergeSort.swift */; };
+		F8A1DD2322D20C010068888C /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A1DD2222D20C010068888C /* BinaryTree.swift */; };
+		F8A1DD2522D20C140068888C /* BinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A1DD2422D20C140068888C /* BinaryTreeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F87DF5DE22D14C670097E4AC /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		F87DF5E022D14FB10097E4AC /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		F87DF5E222D150790097E4AC /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		F8A1DD2222D20C010068888C /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		F8A1DD2422D20C140068888C /* BinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 				F87DF5CF22D116A60097E4AC /* DataStructuresFrameworkTests-Bridging-Header.h */,
 				F87DF5D622D123A70097E4AC /* QueueTests.swift */,
 				F87DF5DC22D14A540097E4AC /* SortTests.swift */,
+				F8A1DD2422D20C140068888C /* BinaryTreeTests.swift */,
 			);
 			path = DataStructuresFrameworkTests;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 			children = (
 				F87DF5CD22D115680097E4AC /* Stack.swift */,
 				F87DF5D222D121DB0097E4AC /* Queue.swift */,
+				F8A1DD2222D20C010068888C /* BinaryTree.swift */,
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F87DF5E322D150790097E4AC /* MergeSort.swift in Sources */,
+				F8A1DD2322D20C010068888C /* BinaryTree.swift in Sources */,
 				F87DF5CE22D115680097E4AC /* Stack.swift in Sources */,
 				F87DF5E122D14FB10097E4AC /* InsertionSort.swift in Sources */,
 				F87DF5DF22D14C670097E4AC /* SelectionSort.swift in Sources */,
@@ -247,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A1DD2522D20C140068888C /* BinaryTreeTests.swift in Sources */,
 				F87DF5D122D116A60097E4AC /* StackTests.swift in Sources */,
 				F87DF5DD22D14A540097E4AC /* SortTests.swift in Sources */,
 				F87DF5D722D123A70097E4AC /* QueueTests.swift in Sources */,
