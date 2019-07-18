@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F87425E422E0156600B47890 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87425E322E0156600B47890 /* PriorityQueue.swift */; };
+		F87425E822E0171400B47890 /* PriorityQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87425E722E0171400B47890 /* PriorityQueueTests.swift */; };
 		F87DF5BD22D1152D0097E4AC /* DataStructuresFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87DF5B322D1152D0097E4AC /* DataStructuresFramework.framework */; };
 		F87DF5CE22D115680097E4AC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DF5CD22D115680097E4AC /* Stack.swift */; };
 		F87DF5D122D116A60097E4AC /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DF5D022D116A60097E4AC /* StackTests.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F87425E322E0156600B47890 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		F87425E722E0171400B47890 /* PriorityQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueTests.swift; sourceTree = "<group>"; };
 		F87DF5B322D1152D0097E4AC /* DataStructuresFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataStructuresFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87DF5B722D1152D0097E4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F87DF5BC22D1152D0097E4AC /* DataStructuresFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +122,7 @@
 				F8A1DD2422D20C140068888C /* BinaryTreeTests.swift */,
 				F8CDC42222D5A27500334040 /* HeapTests.swift */,
 				F8CDC42822D624F600334040 /* LinkedListTests.swift */,
+				F87425E722E0171400B47890 /* PriorityQueueTests.swift */,
 			);
 			path = DataStructuresFrameworkTests;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				F8A1DD2222D20C010068888C /* BinaryTree.swift */,
 				F8CDC42022D59C8300334040 /* Heap.swift */,
 				F8CDC42422D5B01000334040 /* LinkedList.swift */,
+				F87425E322E0156600B47890 /* PriorityQueue.swift */,
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 				F87DF5E322D150790097E4AC /* MergeSort.swift in Sources */,
 				F8A1DD2322D20C010068888C /* BinaryTree.swift in Sources */,
 				F87DF5CE22D115680097E4AC /* Stack.swift in Sources */,
+				F87425E422E0156600B47890 /* PriorityQueue.swift in Sources */,
 				F87DF5E122D14FB10097E4AC /* InsertionSort.swift in Sources */,
 				F87DF5DF22D14C670097E4AC /* SelectionSort.swift in Sources */,
 				F87DF5D322D121DB0097E4AC /* Queue.swift in Sources */,
@@ -275,6 +282,7 @@
 				F8A1DD2522D20C140068888C /* BinaryTreeTests.swift in Sources */,
 				F87DF5D122D116A60097E4AC /* StackTests.swift in Sources */,
 				F87DF5DD22D14A540097E4AC /* SortTests.swift in Sources */,
+				F87425E822E0171400B47890 /* PriorityQueueTests.swift in Sources */,
 				F87DF5D722D123A70097E4AC /* QueueTests.swift in Sources */,
 				F8CDC42922D624F600334040 /* LinkedListTests.swift in Sources */,
 				F8CDC42322D5A27500334040 /* HeapTests.swift in Sources */,
