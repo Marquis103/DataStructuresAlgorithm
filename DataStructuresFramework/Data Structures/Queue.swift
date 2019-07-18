@@ -8,6 +8,21 @@
 
 import Foundation
 
+/*
+ - Queues have enqueue and dequeue operations
+ - Queues are First in First Out (FIFO)
+ - Check if a queue is empty
+ - Peek allows you to peek at the front of the queue
+ 
+ Big (O) for Queue Operations
+ enqueue O(1) always pushing to the end of the queue
+ dequeue O(n) after dequeue the first item off the list, all the other items shift
+ 
+ Space Complexity O(n)
+ Double Stack Queue Variation
+ enqueue O(1)
+ dequeue O(1)
+ */
 protocol Queue {
   associatedtype Element
   

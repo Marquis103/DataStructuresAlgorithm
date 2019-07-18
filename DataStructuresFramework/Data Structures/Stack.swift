@@ -8,6 +8,12 @@
 
 import Foundation
 
+/*
+ - Stack have push operations and pop
+ - Check if a stack is empty
+ - Peek allows you to peek at the top of the stack
+ - 
+*/
 struct Stack<Element: Equatable>: Equatable {
   private var storage: [Element] = []
   
